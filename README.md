@@ -5,6 +5,7 @@ This repository contains the source code for the University of Minnesota (UMN) R
 ## Development Team & Contributors
 
 - Matt "TitanHawk17" Dixey: _Project Mentor_
+- Corbin "Nut" Donner: _Project Engineer_
 
 ## Developer Instructions
 
