@@ -1,4 +1,4 @@
-export default function Navbar() {
+export const Navbar = () => {
     return (
         <header>
             <nav className="nav">
