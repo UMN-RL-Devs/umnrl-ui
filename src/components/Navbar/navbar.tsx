@@ -1,11 +1,13 @@
+import {Outlet, Link } from "react-router-dom";
+
 export const Navbar = () => {
     return (
         <header>
             <nav className="nav">
-                <a href="/" className="site-title">UMNRL</a>
+                <Link to="/">UMNRL</Link>
                 <ul>
                     <li>
-                        <a href="/about">About</a>
+                        <Link to="/About">About</Link>
                     </li>
                     <li>
                         <a href="https://discord.gg/bAe9fQFX" rel="noopener">Discord</a>
@@ -18,6 +20,8 @@ export const Navbar = () => {
                     </li>
                 </ul>
             </nav>
+
+            <Outlet />
         </header>
     );
 }
