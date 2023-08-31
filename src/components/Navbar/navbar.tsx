@@ -7,7 +7,7 @@ export const Navbar = () => {
                 <Link to="/">UMNRL</Link>
                 <ul>
                     <li>
-                        <Link to="/About">About</Link>
+                        <Link to="/about">About Us</Link>
                     </li>
                     <li>
                         <a href="https://discord.gg/bAe9fQFX" rel="noopener">Discord</a>
